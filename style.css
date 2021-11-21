@@ -480,6 +480,10 @@ footer {
 }
 
 @media screen and (max-width:375px) {
+    *{
+        overflow-y: visible;
+        overflow-x: visible;
+    }
     
     .left {
         font-size:0.6em;
