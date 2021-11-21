@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding:0;
-    
+    overflow-x: visible;
+    overflow-y: visible;
     box-sizing: border-box;
 }
 
@@ -104,11 +105,11 @@ footer {
 
 }
 .first-page-body .heading h1{
-    margin-top: 30px;
+    margin-top: 50px;
     letter-spacing: 20px;
 }
 .first-page-body img {
-    margin-top:110px;
+    margin-top: 120px;
     width: 45px;
 }
 .first-page-body h1 {
@@ -118,7 +119,7 @@ footer {
 }
 
 .heading {
-    padding-top:80px;
+    padding-top:0px;
     display: flex;
     justify-content: center;
 }
@@ -200,7 +201,7 @@ footer {
     background-position:center;
 }
 .second-half .left{
-    padding: 0 140px 0 100px;
+padding: 0 140px 0 100px;
 }
 .second-half button{
     font-size: 18px;
@@ -550,8 +551,7 @@ footer {
 
 @media screen and (max-width:375px) {
     *{
-        margin: 0;
-        padding: 0;
+        overflow-y: visible;
     }
     
     
@@ -708,10 +708,11 @@ footer {
     .second-half{
         display: flex;
         flex-direction: column-reverse;
+        height: 100vh;
     }
     .second-half .left{
         flex: 1;
-        
+        padding: 50px 10px 0 10px;
     }
     .second-half .right{
         flex: 1;
@@ -719,28 +720,34 @@ footer {
     .second-half .left h1{
         text-align: center;
         font-size: 18px;
+        font-weight: 900;
     }
-    .second-half .left{
-        padding: 0;
-    }
+
     .second-half .left h3{
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
         padding: 0;
     }
     .second-half .left button{
         margin-left: auto;
         margin-right:auto;
-        font-size: 14px;
+        font-size: 13px;
     } 
     .first-half .left{
         padding: 0;
     }
     .first-half .left h1{
         padding: 0;
+        font-weight: 900;
+        font-size: 18px;
+    }
+    .first-half .left button{
+        font-size: 13px;
     }
     .left h3 {
-        padding: 0;
+        padding: 10px 10px 0 10px;
+        font-size: 13px;
+        text-align: center;
     }
 
     
