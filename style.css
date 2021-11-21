@@ -103,9 +103,13 @@ footer {
     align-items: center;
 
 }
+.first-page-body .heading h1{
+    margin-top: 30px;
+    letter-spacing: 20px;
+}
 .first-page-body img {
-    margin-top:80px;
-    width: 40px;
+    margin-top:110px;
+    width: 45px;
 }
 .first-page-body h1 {
     font-family: 'Fraunces', sans-serif;
@@ -261,6 +265,7 @@ footer {
     display:grid;
     grid-template-columns:repeat(3,1fr);
     grid-column-gap:20px;
+    padding: 0 50px;
 }
 
 .card {
@@ -274,23 +279,25 @@ footer {
     text-align-last: center;
 
 }
-.headline h1, .card h5 {
-    font-family: 'Fraunces',sans-serif;
-    
-    
-    
+.headline h1{
+    font-family: 'Fraunces',sans-serif;   
 }
 .card p {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
-    padding: 70px;
+    padding: 50px;
     font-size: 18px;
+    color: rgb(129, 132, 152);
 }
 .card .boldy{
+    font-family: 'Fraunces',sans-serif;
     font-weight: 900;
     font-size: 18px;
+    color: hsl(212, 27%, 19%);
 }
 .card .smally{
+    font-family: "Barlow", sans-serif;
+    color: hsl(210, 4%, 67%);
     font-size: 16px;
     font-weight: 700;
 }
@@ -346,7 +353,7 @@ footer {
     cursor: pointer;
 }
 #navbutton :hover {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(241, 239, 239, 0.6);
 
 }
 
@@ -543,12 +550,15 @@ footer {
 
 @media screen and (max-width:375px) {
     *{
-        overflow-y: visible;
-        overflow-x: visible;
+        margin: 0;
+        padding: 0;
     }
+    
     
     .left {
         font-size:0.6em;
+        gap: 10px;
+        align-items: center;
 
     }
     .right, .second-half .right {
@@ -558,6 +568,7 @@ footer {
     }
     .testimonials {
         font-size: 0.6em;
+        padding: 0;
     }
     .card {
         padding-bottom:10px;
@@ -569,7 +580,7 @@ footer {
     nav h1{
         font-size: 1.125em;
     }
-    .first-page-body h1{
+    .first-page-body .heading h1{
         font-size: 2.35em;
         text-align: center;
         letter-spacing: .2em;
@@ -632,6 +643,7 @@ footer {
     .card p{
         font-size: 14px; 
         font-weight: 600; 
+        padding: 0;
     }
     .headline{
         padding: 0;
@@ -680,6 +692,7 @@ footer {
         margin-top: 20px;
         font-size: 12px;
         font-weight: 600;
+        padding: 0;
     }
     .third-half .left h2{
         margin-top: 80px;
@@ -687,9 +700,10 @@ footer {
         font-weight: 900;
     }
     .third-half .left h4{
-        margin-top: 0px;
+        margin-top: 10px;
         font-size: 12px;
         font-weight: 600;
+        padding: 0;
     }
     .second-half{
         display: flex;
@@ -706,13 +720,27 @@ footer {
         text-align: center;
         font-size: 18px;
     }
+    .second-half .left{
+        padding: 0;
+    }
     .second-half .left h3{
+        font-size: 14px;
         text-align: center;
+        padding: 0;
     }
     .second-half .left button{
         margin-left: auto;
         margin-right:auto;
         font-size: 14px;
+    } 
+    .first-half .left{
+        padding: 0;
+    }
+    .first-half .left h1{
+        padding: 0;
+    }
+    .left h3 {
+        padding: 0;
     }
 
     
