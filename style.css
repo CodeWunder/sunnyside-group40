@@ -109,7 +109,7 @@ footer {
 .first-page-body h1 {
     font-family: 'Fraunces', sans-serif;
     font-size:3em;
-    margin-top: 50px;
+    margin-top: 70px;
     letter-spacing: 20px;
 
 }
@@ -343,7 +343,7 @@ footer {
     width: 10%;
     z-index: 2;
 }
-.socials img:hover, .menu h3:hover, .logo:hover {
+.socials img:hover, .menu h3:hover{
     cursor: pointer;
     color: white;
 }
@@ -553,14 +553,16 @@ footer {
     
     .left {
         font-size:0.6em;
-        gap: 15px;
+        gap: 1.5rem;
         align-items: center;
+        height: 50vh;
     }
     .right, .second-half .right {
-        height:30vh;
+        height:50vh;
         font-size:0.6em;
 
     }
+    
     .testimonials {
         font-size: 0.6em;
         padding: 0;
@@ -569,8 +571,8 @@ footer {
         padding-bottom:10px;
     }
     .first-page{
-        height: 90vh;
-        background-image: url(../sunnyside-group40/images/desktop/image-header.jpg);
+        height: 70vh;
+        background-image: url(images/mobile/image-header.jpg);
     }
     nav h1{
         font-size: 1.125em;
@@ -579,10 +581,10 @@ footer {
         font-size: 2.35em;
         text-align: center;
         letter-spacing: .2em;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .first-page-body img{
-        margin-top: 20px;
+        margin-top: 1.25rem;
         width: 30px;
     }
     .heading{
@@ -603,7 +605,7 @@ footer {
         "milk  orangel"
         "cone sugar";
         
-        margin-top: 300px;
+        margin-top: 200px;
     }
     #image1{
         grid-area: cone;
@@ -619,14 +621,14 @@ footer {
     }
     
     .third-second-half .image{
-        background-size: 200px;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     
 
     .card{
         gap: 15px;
-        padding-top: 20px;
+        padding-top: 40px;
     }
     .card img{
         width: 110px;
@@ -649,7 +651,7 @@ footer {
     }
     .headline h1{
         margin-bottom: 15px;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 900;
         text-transform: uppercase;
         letter-spacing: 2.5px;
@@ -661,7 +663,7 @@ footer {
         padding: 0 14px;
     }
     .testimonials .boldy{
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 900;
     }
     .testimonials .smally{
@@ -684,23 +686,23 @@ footer {
     }
     .third-half .right h2{
         margin-top: 80px;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 900;
     }
     .third-half .right h4{
         margin-top: 20px;
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: 600;
         padding: 0;
     }
     .third-half .left h2{
         margin-top: 80px;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 900;
     }
     .third-half .left h4{
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 0.75rem;
         font-weight: 600;
         padding: 0;
     }
@@ -719,18 +721,18 @@ footer {
     }
     .second-half .left h1{
         text-align: center;
-        font-size: 25px;
+        font-size: 1.4rem;
         font-weight: 900;
         padding: 0 20px 0 20px;
     }
     .second-half .left h3{
-        font-size: 14px;
+        font-size: 0.875rem;
         text-align: center;
     }
     .second-half .left button{
         margin-left: auto;
         margin-right:auto;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .first-half .left{
         padding: 0 0 10px 0;
@@ -739,18 +741,21 @@ footer {
         padding: 0 30px 0 30px;
         font-weight: 900;
         text-align: center;
-        font-size: 25px;
+        font-size: 1.4rem;
     }
     .first-half .left button{
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .left h3 {
         padding: 0px 10px 0 10px;
-        font-size: 13px;
+        font-size: 0.875rem;
         text-align: center;
     }
     .left-side .hamburger-menu{
-        margin-left: 90px;
+        margin-left: 5.625rem;
+    }
+    footer{
+        height: 30vh;
     }
    
     
