@@ -575,13 +575,13 @@ footer {
         background-image: url(images/mobile/image-header.jpg);
     }
     nav h1{
-        font-size: 1.125em;
+        font-size: 1.25em;
     }
     .first-page-body h1{
         font-size: 2.35em;
         text-align: center;
         letter-spacing: .2em;
-        margin-top: 1.25rem;
+        margin-top: 1rem;
     }
     .first-page-body img{
         margin-top: 1.25rem;
